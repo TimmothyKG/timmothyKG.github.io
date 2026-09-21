@@ -1,1 +1,66 @@
+body {
+margin: 0;
+background-color: #ddd;
+}
 
+.container {
+max-width: 45em;
+margin: auto;
+background-color: white;
+}
+
+header {
+background-color: #ff8c00;
+color: white;
+padding: 1em;
+}
+
+h1 {
+margin: 0;
+}
+
+h2 {
+margin: 0;
+}
+
+figure {
+display: grid;
+grid-template-columns: 65% 35%;
+margin: 0;
+}
+
+figure img {
+width: 100%;
+}
+
+figcaption {
+padding: 1em;
+}
+
+main {
+display: grid;
+grid-template-columns: 50% 50%;
+gap: 2em;
+padding: 1em;
+}
+
+h3 {
+color: #e88924;
+border-top: 2px solid #e88924;
+padding-top: .5em;
+}
+
+ul,
+ol {
+padding-left: 1.2em;
+}
+
+footer {
+background-color: #ff8c00;
+color: white;
+padding: 1em;
+}
+
+footer p {
+margin: 0;
+}
