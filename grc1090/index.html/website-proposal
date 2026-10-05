@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://grc-ribeiro.github.io/files/proposal.css">
+
+<title>Timmothy Gonzalez - Final project proposal</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Final project proposal</h1>
+
+
+<h2>Introduction</h2>
+
+<p>Certified Coffee</p>
+
+<p>Certified Coffee is a small coffee shop in San Luis Obispo, California. It sells coffee, espresso drinks, tea, pastries, and a few breakfast items. The idea behind the shop is to have a simple and comfortable place where people can get a drink, hang out, or grab something before going about their day. Certified Coffee only has one location.</p>
+
+
+<h2>Target audience</h2>
+
+<p>The people using this website are customers who want to know more about the coffee shop before they visit. They might be looking for a drink, something to eat, or a place to sit and spend some time. They need the website to give them the basic information without making it difficult to find.</p>
+
+<p>The main things visitors will want to do are look at the menu, see the prices, find the location, and check the hours. The website should make these things easy to find.</p>
+
+
+<h2>Other Website Examples:</h2>
+
+
+<h3>Scout Coffee</h3>
+
+<p><a href="https://scoutcoffeeco.com/">Scout Coffee</a></p>
+
+<img src="scout-home.png" alt="Screenshot of the home page of the Scout Coffee website." title="Scout Coffee home page">
+
+<img src="scout-location.png" alt="Screenshot of the location page of the Scout Coffee website." title="Scout Coffee location page">
+
+
+<h3>Field Day Coffee</h3>
+
+<p><a href="https://www.fielddaycoffee.com/">Field Day Coffee</a></p>
+
+<img src="fieldday-home.png" alt="Screenshot of the home page of the Field Day Coffee website." title="Field Day Coffee home page">
+
+<img src="fieldday-location.png" alt="Screenshot of the location page of the Field Day Coffee website." title="Field Day Coffee location page">
+
+
+<h3>Frankie's</h3>
+
+<p><a href="https://www.frankiesongarden.com/">Frankie's</a></p>
+
+<img src="frankies-home.png" alt="Screenshot of the home page of the Frankie's website." title="Frankie's home page">
+
+<img src="frankies-location.png" alt="Screenshot of the location and business information page of the Frankie's website." title="Frankie's location page">
+
+
+<h2>Website content</h2>
+
+
+<nav>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Menu</li>
+<li>Location</li>
+</ul>
+</nav>
+
+
+<section>
+
+<h1>Home</h1>
+
+<p>Welcome to Certified Coffee. We are a small coffee shop in San Luis Obispo serving coffee, espresso drinks, tea, pastries, and breakfast items.</p>
+
+<p>Stop by to grab a coffee before starting your day, meet up with someone, or just take a break. We want Certified Coffee to be a place where people can relax and enjoy their drink.</p>
+
+<p>[coffee cup next to a pastry on a small table]</p>
+
+<p>[inside of a coffee shop with tables and chairs]</p>
+
+
+</section>
+
+
+<section>
+
+<h1>About</h1>
+
+<p>Certified Coffee started with the idea of making a coffee shop that feels simple and comfortable. We wanted a place where people could stop in for a quick coffee or stay for a little while.</p>
+
+<p>Our menu has different types of coffee, espresso drinks, tea, pastries, and breakfast food. We keep the menu pretty simple so customers can find something they like without having too many choices.</p>
+
+<p>The coffee shop has a relaxed atmosphere and is meant to be a place where customers can hang out, meet with friends, or get some work done.</p>
+
+<p>[barista making a latte]</p>
+
+<p>[pastries sitting in a display case]</p>
+
+</section>
+
+
+<section>
+
+<h1>Menu</h1>
+
+<h2>Coffee</h2>
+
+<p>House Coffee — $3.50 — Fresh brewed coffee that is smooth.</p>
+
+<p>Cold Brew — $4.50 — Cold brewed coffee served over ice.</p>
+
+<p>Vanilla Latte — $5.25 — Espresso with steamed milk and vanilla.</p>
+
+<p>Mocha — $5.50 — Espresso, steamed milk, and chocolate.</p>
+
+<p>Cappuccino — $4.75 — Espresso with steamed milk and foam.</p>
+
+<h2>Other Drinks</h2>
+
+<p>Chai Latte — $5.25 — Chai mixed with steamed milk and warm spices.</p>
+
+<p>Iced Matcha — $5.25 — Matcha mixed with milk and served over ice.</p>
+
+<p>Fresh Lemonade — $4.00 — Lemonade made with fresh lemon juice.</p>
+
+<h2>Food</h2>
+
+<p>Butter Croissant — $4.25 — A flaky croissant that is baked until golden.</p>
+
+<p>Breakfast Sandwich — $7.50 — Egg and cheddar cheese with bacon or avocado on a toasted English muffin.</p>
+
+<p>[latte and pastry on a coffee shop table]</p>
+
+<p>[iced coffee in a clear glass]</p>
+
+<p>[different pastries in a display case]</p>
+
+<p>[multiple breakfast sandwiches being cooked]</p>
+
+</section>
+
+
+<section>
+
+<h1>Location</h1>
+
+<p>Certified Coffee</p>
+
+<p>123 San Luis Obispo Street <br>
+San Luis Obispo, CA 93401</p>
+
+<h2>Hours</h2>
+
+<p>Monday–Friday: 7:00 AM–6:00 PM<br>
+Saturday–Sunday: 8:00 AM–5:00 PM</p>
+
+<p>Come by for coffee, food, or just to hang out.</p>
+
+<h2>Getting Here</h2>
+
+<p>Certified Coffee is near downtown San Luis Obispo.</p>
+
+<h2>Contact</h2>
+
+<p>Phone: (805) 805-805</p>
+
+<p>Email: hello@certifiedcoffee.com</p>
+
+<p>[outside of a small coffee shop on a street iwth sunset in backround]</p>
+
+<p>[entrance to Certified Coffee with the business sign]</p>
+
+<p>[Inside picture of cozy fireplace and customers resting]]</p>
+<p>[map showing the location of Certified Coffee]</p>
+
+</section>
+
+
+</div>
+
+</body>
+</html>
