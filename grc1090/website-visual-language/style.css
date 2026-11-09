@@ -1,0 +1,349 @@
+/* Eric Meyer Reset */
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "adobe-caslon-pro", Georgia, serif;
+    background: #eeede9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+div.container,
+div.home-container {
+    position: relative;
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div.container {
+    background: #ffffff;
+}
+
+div.home-container {
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("Images/home-background.jpg") center center / cover fixed;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background: #e8e7e2;
+    padding: 1.5em;
+    gap: 1em;
+}
+
+h1 {
+    width: 5em;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Navigation */
+
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-left: 0.7em;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #333333;
+    padding: 0.5em 0.7em;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+nav ul li a:hover,
+nav ul li.selected a {
+    color: #78836a;
+    border-bottom: 2px solid #78836a;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main content */
+
+main {
+    padding: 1em 1.5em 3em;
+    flex: 1;
+}
+
+h2, h3, h4 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 1em 0 0.5em;
+    color: #292929;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin: 0 0 0.3em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+main > img {
+    aspect-ratio: 2.5 / 1;
+    object-fit: cover;
+    margin-bottom: 1.5em;
+}
+
+article {
+    width: 65%;
+    margin: 1.5em auto;
+}
+
+article p {
+    margin-bottom: 1.2em;
+}
+
+article section {
+    margin-bottom: 2em;
+}
+
+/* Home page */
+
+main.home {
+    padding-top: 5em;
+}
+
+p.slogan {
+    font-size: 4em;
+    font-family: "adobe-caslon-pro", Georgia, serif;
+    font-style: italic;
+    margin: 1.5em 0 0.3em;
+    color: #ffffff;
+}
+
+p.home-intro {
+    max-width: 30em;
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+
+.menu-button {
+    display: inline-block;
+    background: #78836a;
+    color: #ffffff;
+    font-family: "futura-pt", sans-serif;
+    padding: 0.8em 1.5em;
+    margin-bottom: 3em;
+}
+
+.menu-button:hover {
+    background: #626e55;
+}
+
+main.home address {
+    color: #ffffff;
+}
+
+/* Menu */
+
+main.menu > p {
+    max-width: 45em;
+}
+
+main.menu section {
+    margin: 2em 0;
+}
+
+main.menu section h2 {
+    border-bottom: 1px solid #78836a;
+    padding-bottom: 0.4em;
+}
+
+main.menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    margin: 2em 0;
+}
+
+main.menu ul li {
+    margin: 0 0 2em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 1em;
+}
+
+main.menu ul li h3 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+p.description {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    margin: 0;
+    color: #666666;
+    font-size: 0.95em;
+}
+
+p.price {
+    grid-row: 1;
+    grid-column: 2;
+    color: #78836a;
+    text-align: right;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Contact */
+
+address {
+    color: #78836a;
+    margin-bottom: 1.5em;
+    line-height: 1.8;
+}
+
+address a {
+    color: #78836a;
+}
+
+article section ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.7em 1em;
+    background: #e8e7e2;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    color: #555555;
+    font-size: 0.85em;
+}
+
+/* Mobile layout */
+
+@media screen and (max-width: 40em) {
+
+    div.container,
+    div.home-container {
+        width: 100%;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 1em;
+    }
+
+    h1 {
+        width: 5em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-left: 0.2em;
+    }
+
+    nav ul li a {
+        padding: 0.4em;
+        font-size: 0.8em;
+    }
+
+    main {
+        padding: 1em 1em 3em;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    main.menu ul {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    p.slogan {
+        font-size: 2.5em;
+        margin: 1em 0 0.3em;
+    }
+
+    main.home {
+        padding-top: 3em;
+    }
+
+    main > img {
+        aspect-ratio: 1.5 / 1;
+    }
+}
+
+/* Desktop adjustments */
+
+@media screen and (min-width: 60em) {
+
+    header {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+    main.menu ul {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3em;
+        margin: 2em 0;
+    }
+
+    article {
+        width: 65%;
+        margin: 1.5em auto;
+    }
+}
